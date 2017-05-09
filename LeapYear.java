@@ -1,4 +1,4 @@
-package Four;
+﻿package Four;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class LeapYear {
 		if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) {
 			System.out.println("是闰年");
 		} else {
-			System.out.println("不是闰年");
+			System.out.println("不是闰年吗");
 		}
 	}
 
